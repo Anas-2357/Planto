@@ -1,0 +1,235 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+body {
+    background-color: #1b2316;
+    overflow-x: hidden;
+}
+
+.top-section {
+    height: 270vh;
+    width: 100vw;
+    background: url(./assets/nagy-arnold-X_IvVDuHvDQ-unsplash\ 1.png);
+    background-size: cover;
+    background-position: 0px ;
+
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    padding: 40px 50px 40px 40px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    color: #c6c8c5;
+}
+
+nav img {
+    width: 70px;
+    height: 100%;
+    width: 32px;
+    margin-bottom: 4px;    
+}
+
+.nav-1, .nav-3 {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #c6c8c5;
+}
+
+.nav-2 {
+    display: flex;
+    gap: 30px;
+    font-weight: 300;
+    align-items: center;
+    color: #c6c8c5;
+}
+
+.nav-2 div {
+    height: auto;
+    /* background-color: teal; */
+}
+
+.nav-3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-3 img {
+    width: 15px;
+    height: 15px;
+}
+
+.nav-3 .small {
+    width: 15px;
+    height: 10px;
+}
+
+
+
+
+.landing-area {
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+}
+
+.landing-area-left-main {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 130px;
+}
+
+.landing-area-left-main-top {
+
+}
+
+.landing-area-left-main-top h1 {
+    font-size: 100px;
+    color: #c6c8c5;
+}
+
+.landing-area-left-main-top p {
+    font-weight: 300;
+    font-size: 20px;
+    transform: translateY(-8px);
+    color: #c6c8c5;
+}
+
+.landing-area-left-main-top div {
+    margin-top: 5px;
+    height: 45px;
+    display: flex;
+    gap: 20px;
+}
+
+.landing-area-left-main-top button {
+    background-color: transparent;
+    padding: 10px 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: #c6c8c5;
+    font-size: 20px;
+    
+}
+
+.landing-area-left-main-top img {
+    /* height: auto; */
+}
+
+.landing-area-left-main-bottom {
+    padding: 30px;
+    width: 35%;
+    backdrop-filter: blur(5px);
+    background-color: #ffffff15;
+    border-radius: 40px;
+}
+
+.landing-area-left-main-bottom img {
+    height: 50px;
+}
+
+.landing-area-left-main-bottom p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #c6c8c5;
+}
+
+
+.landing-area-right-panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.landing-area-right-panel > div {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    background-color: #ffffff15;
+    border-radius: 40px;
+    padding: 0 20px 20px 20px;
+}
+
+.img-container {
+    height: 220px;
+    direction: backwards;
+}
+
+
+.landing-area-right-panel img {
+    height: 300px;
+    position: relative;
+    bottom: 80px;
+}
+
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.content small {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #c6c8c5;
+}
+
+.content button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-weight: 300;
+}
+
+.dots {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+
+.dots .first {
+    width: 15px;
+}
+
+.dots div {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
