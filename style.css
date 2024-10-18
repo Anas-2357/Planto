@@ -14,19 +14,18 @@ body {
 }
 
 .top-section {
-    height: 270vh;
+    height: 100%;
     width: 100vw;
     background: url(./assets/nagy-arnold-X_IvVDuHvDQ-unsplash\ 1.png);
     background-size: cover;
     background-position: 0px ;
+    padding: 40px 50px 80px 40px;
 
 }
 
 .header {
     height: 100vh;
     width: 100%;
-    padding: 40px 50px 40px 40px;
-    
 }
 
 nav {
@@ -90,7 +89,7 @@ nav img {
 
 
 .landing-area {
-    height: 100%;
+    height: 80%;
     width: 100%;
     margin-top: 70px;
     display: flex;
@@ -102,7 +101,7 @@ nav img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
 }
 
 .landing-area-left-main-top {
@@ -145,8 +144,8 @@ nav img {
 .landing-area-left-main-bottom {
     padding: 30px;
     width: 35%;
-    backdrop-filter: blur(5px);
-    background-color: #ffffff15;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff10;
     border-radius: 40px;
 }
 
@@ -162,7 +161,7 @@ nav img {
 
 
 .landing-area-right-panel {
-    height: 100%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     padding: 0 40px;
@@ -171,8 +170,8 @@ nav img {
 .landing-area-right-panel > div {
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(5px);
-    background-color: #ffffff15;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff10;
     border-radius: 40px;
     padding: 0 20px 20px 20px;
 }
@@ -232,4 +231,366 @@ nav img {
     background-color: white;
     border-radius: 50px;
     cursor: pointer;
+}
+
+
+
+
+.section-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+
+.section-2 > h2 {
+    font-size: 60px;
+}
+
+.section-2-card-container {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+.section-2-card {
+    width: 100%;
+}
+
+.section-2-card  {
+    display: flex;
+    padding: 80px 100px; 
+    backdrop-filter: blur(10px);
+    background-color: #ffffff10;
+    border-radius: 80px;
+}
+
+.section-2-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.section-2-content h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.section-2-content p {
+    font-size: 15px;
+}
+
+.section-2-content h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-2-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-2-buttons button {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 2px solid white;
+    height: 100%;
+    padding: 7px 7px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.section-2-buttons .first{
+    padding: 5px 30px;   
+}
+
+.section-2-image {
+    width: 50%;
+    height: 200px; 
+}
+
+.section-2-image img {
+    height: 630px;
+    position: absolute;
+    bottom: -60px;
+}
+
+
+
+
+
+
+
+.section-3 {
+    width: 100%;
+    padding: 80px 50px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.section-3 h2{
+    font-size: 60px;
+
+}
+
+.section-3-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 150px 0;
+}
+
+.section-3-card{
+    width: 30%;
+    padding: 45px 40px;
+    /* backdrop-filter: blur(10px); */
+    background-color: #272e22;
+    border-radius: 30px;
+}
+
+.section-3-card-image-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-card-image-container img {
+    height: 450px;
+    position: relative;
+    bottom: 150px;
+}
+
+.section-3-card-1 .section-3-card-image-container img {
+    height: 310px;
+    bottom: 140px;
+}
+
+.section-3-card-2 .section-3-card-image-container img {
+    bottom: 190px;
+}
+
+.section-3-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-3-card-content h3 {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.section-3-card-content p {
+    font-weight: 300;
+    font-size: 14px;
+    width: 80%;
+}
+
+.section-3-card-content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-card-content button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 2px 3px;
+    border-radius: 6px;
+}
+
+.section-3-card-content img {
+    height: 60%;
+}
+
+
+
+
+
+
+
+.section-4 {
+    display: flex;
+    width: 100%;
+    padding: 80px 50px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-4 h2 {
+    font-size: 50px;
+}
+
+.section-4-card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.section-4-card {
+    padding: 40px;
+    background-color: #272e22;
+    border-radius: 20px;
+    
+}
+
+.section-4-card > p {
+    font-weight: 200;
+}
+
+.section-4-card-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.section-4-card-top p {
+    font-size: 25px;
+}
+
+.section-4-card-top img {
+    height: 15px;
+}
+
+.section-4-card-top > img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.section-5 {
+    display: flex;
+    width: 100%;
+    padding: 80px 50px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 80px;
+}
+
+.section-5 h2 {
+    font-size: 50px;
+}
+
+.section-5-card {
+    width: 90%;
+    display: flex;
+    background-color: #272e22;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.section-5-img-container {
+    width: 50%;
+    height: 450px;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.section-5-img-container img {
+    height: 900px;
+    transform: translateY(-190px) translateX(-140px);
+}
+
+.section-5-card-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.section-5-card-content h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #c6c8c5;
+}
+
+.section-5-card-content p {
+    font-weight: 400;
+    color: #c6c8c5;
+}
+
+.section-5-card-content button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c6c8c5;
+}
+
+.section-5-dots {
+    display: flex;
+    gap: 15px;
+}
+
+.section-5-dots div {
+    height: 8px;
+    width: 8px;
+    background-color: #c6c8c5;
+    border-radius: 100px;
+}
+
+.section-5-dots .first {
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #222c1d;
+    padding: 50px 25px 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+
+footer-top-1-head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 40%;
+}
+
+footer-top-1-head h2 {
+    font-size: 35px;
+    color: #c6c8c5;
 }
