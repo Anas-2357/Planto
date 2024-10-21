@@ -1,10 +1,10 @@
 # Planto 🌱
-Planto is a project that I created to practice my Flexbox skills. It’s a simple plant-themed landing page.<br/><br/>
+### Planto is a simple plant-themed landing page which i created to practice my Flexbox skills. <br/>
 
 Its currently unresponsive so please only open in desktop.<br/>
-Live link: planto-seven.vercel.app <br/><br/>
+Live link: [planto-seven.vercel.app](https://planto-seven.vercel.app/)
 
-Also design credit goes to: figma.com/@dsingr
+Also design credit goes to: [figma.com/@dsingr](https://www.figma.com/@dsingr) <br/><br/>
 
 
 ![Screenshot 2024-10-21 200425](https://github.com/user-attachments/assets/1c071ffa-79a2-409a-896b-052fc6dee9b6)
